@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Georgia', serif;
+}
+
+#signature {
+  opacity: 0;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: opacity 3s ease-in;
+}
+
+#story {
+  font-size: 22px;
+  text-align: center;
+  width: 80%;
+}
